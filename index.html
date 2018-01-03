@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forside</title>
+</head>
+<body>
+<h1>Alle Film</h1>
+<form action="control/alleFilm.php" method="POST">
+    SEND: <button type="submit" value="Hent Alle" name="AlleBtn"></button>
+</form>
+
+<h1>En Film</h1>
+<form action="control/EnFilm.php" method="POST">
+    ID: <Input type="text" value="" name="ID" />
+    SEND: <Input type="submit" value="Hent En" name="EnBtn" />
+</form>
+
+
+<h1>Add En Film</h1>
+<form action="control/AddMovie.php" method="POST">
+    Titel: <Input type="text" value="" name="Titel" />
+    Rating: <Input type="text" value="" name="Rating" />
+    SEND: <Input type="submit" value="Opret Film" name="AddBtn" />
+</form>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p>
+    {% for c in Film %}
+    {{ c.Id }}<br/>
+    {{ c.Titel }}<br/>
+    {{ c.Rating }}<br/>
+    <br/>
+    {% endfor %}
+</p>
+
+</body>
+</html>
