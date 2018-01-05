@@ -9,6 +9,7 @@
 require_once '../vendor/autoload.php';
 Twig_Autoloader::register();
 
+//$loader er en variable med navnet "loader"
 $loader = new Twig_Loader_Filesystem('../view');
 $twig = new Twig_Environment($loader, array(
     'auto_reload' => true
